@@ -1,0 +1,56 @@
+/*Fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    position: relative;
+    background: #f0fcfd;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 95%;
+    margin: auto;
+}
+
+.active {
+    color: #ff4265;
+}
+
+.heading {
+    font-size: 2rem;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.btn-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.btn {
+    color: #fff;
+    background: #ff4265;
+    border: 2px solid #ff4265;
+    border-radius: 20px;
+    padding: 5px 20px;
+    margin: 8px 0;
+    transition: .3s ease-in-out;
+}
+
+.btn:hover {
+    background: #fff;
+    border: 2px solid #ff4265;
+    color: #ff4265;
+}

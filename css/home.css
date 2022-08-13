@@ -1,0 +1,199 @@
+/*Nav bar*/
+
+header {
+    padding: 10px 0;
+    box-shadow: 0px 2px 10px #0000004d;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    background: #fff;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.logo {
+    height: 30px;
+}
+
+.logo img {
+    height: 100%;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 30px;
+}
+
+nav ul li a {
+    margin: 0 10px;
+    color: #000;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+}
+
+nav ul li a:hover {
+    color: #ff4265;
+}
+
+.fb img {
+    width: 30px;
+}
+
+
+/*Home*/
+
+#home {
+    background: url('../assets//images/home.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+}
+
+#home::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #0000008f;
+}
+
+#home .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home h1 {
+    text-align: center;
+    color: #ffff;
+    z-index: 1;
+    font-size: 2rem;
+}
+
+
+/*Our services*/
+
+.services {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.service {
+    width: 24%;
+    margin-bottom: 10px;
+    margin: 5px;
+    overflow: hidden;
+    background: #ffff;
+    box-shadow: 1px 1px 2px #00000085;
+    transition: .2s ease-in-out;
+    border-radius: 20px;
+}
+
+.service:hover {
+    box-shadow: 2px 2px 12px #00000085;
+}
+
+.service img {
+    width: 100%;
+}
+
+.service-text {
+    padding: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.service-text p {
+    font-size: .8rem;
+    font-weight: 500;
+}
+
+.service-heading {
+    font-size: .9rem;
+    font-weight: 600;
+}
+
+
+/*About us*/
+
+#about {
+    padding: 50px 0;
+}
+
+#about p {
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 2;
+    word-spacing: 1.7px;
+    word-wrap: break-word;
+}
+
+
+/*What we do*/
+
+#what-we-do {
+    padding: 50px 0;
+}
+
+.what-we-do-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.what-we-do-left {
+    margin: 30px;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 50%;
+}
+
+.what-we-do-left img {
+    width: 100%;
+}
+
+.what-we-do-right {
+    width: 50%;
+}
+
+.what-we-do-text {
+    padding: 20px 0;
+}
+
+.what-we-do-text h3 {
+    font-size: 1.7rem;
+}
